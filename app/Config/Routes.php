@@ -21,6 +21,7 @@ $routes->set404Override();
 // $routes->get('pelicula/edit/(:num)', 'Pelicula::edit/$1');
 
 $routes->presenter('pelicula');
+$routes->presenter('categoria');
 
 // The Auto Routing (Legacy) is very dangerous. It is easy to create vulnerable apps
 // where controller filters or CSRF protection are bypassed.
